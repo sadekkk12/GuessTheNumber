@@ -21,7 +21,7 @@ function start(){
 }
 
 function generateGuess(minimum, maximum){
-    return Math.floor(Math.random()*(maximum - minimum +1) + minimum);
+    return Math.floor((min + max) / 2)  // har kun ændret denne linje for at implementere binary search
 
 }
 
